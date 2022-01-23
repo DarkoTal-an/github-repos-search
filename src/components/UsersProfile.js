@@ -12,7 +12,7 @@ const UsersProfile = ({ userDetails }) => {
   return (
 
     <>
-      <Card style={{ minWidth: '14rem'}} >
+      <Card style={{ minWidth: '14rem', maxWidth: '25rem'}} >
         <Card.Img className="rounded fluid" variant="top" src={userDetails.avatar} />
         <Card.Body  >
           <Stack direction="vertical">
