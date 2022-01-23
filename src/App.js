@@ -33,6 +33,7 @@ const [initialLoad, setInitialLoad] = useState(true); // on app load -initial al
 useEffect(() => {  
   setUserDetails([]);
   setRepos([]);
+  setSearch("");
 }, [userName]);
 
 // activates the searching and loading the data from GitHub to our App
@@ -95,7 +96,7 @@ async function getUsersRepos() {
         <Form className="form m-3" >               
             <Stack gap="1" className="col-md-5 mx-auto" >
               <input className="form-control mb-1" onChange={e => setUserName(e.target.value)}  value= {userName} placeholder="GitHub Username please..."/>
-              <button type="submit" className="btn btn-info m-auto"onClick={handleSubmit}>Enter a GitHub username</button>
+              <button type="submit" className="btn btn-info m-auto px-4"onClick={handleSubmit}>Search a GitHub User</button>
             </Stack>
         </Form>
         <div className="mt-3">          
