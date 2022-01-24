@@ -25,6 +25,7 @@ By entering a UserName used as an official Github login, the app renders data in
 ## Task feedback
  > task is a great example how to show and exercise skills in fetching and displaying data 
  > it is a simple task that allow us to use a broad spectrum of tools and enables us to show our knowledge both in front- & back-end with importance of User experience in focus
+ > i have fun working with API's...GitHub API offers a great deal for developers
 
 ## Instructions: 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
