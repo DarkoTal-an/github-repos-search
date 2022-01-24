@@ -10,10 +10,17 @@ App that displays GitHub Repositories With Search Functionality
 By entering a UserName used as an official Github login, the app renders data in two columns.
 
 * The Url-s are clickable and lead to public repositories or websites, blogs... 
+* The search field filters repos by name, repos names link to official Github repositories
 
+### Future improvements:
+ * improving rendering, discrapancy betwwen the user and his repos beeing rendered
+ * improving responsivnes in total but primary that of userProfile Card to render horizontaly when mobile view
+ * 
 
 ## Instructions: 
-#This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+* This project was deployed on [Netlify](https://www.netlify.com/) .
 
 * We install: npm i axios react-bootstrap
   -in order to get bootstrap components and to fetch gitHub repos
